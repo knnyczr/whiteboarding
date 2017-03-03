@@ -12,6 +12,8 @@
 
 * **Course Correction** - There might come a point when the participants approach is way off track or that their logic needs a course correction.  If this happens help them see the limitations of their approach and make the necessary suggestions to get them back on track.
 
+* **Time Check** - Provide them with a time check at the 5 and 2 min mark.  Although the best case scenario is that they write both the steps and code to solve the problem it's more important that their logic is concise and solves the problem prior to writing any code.  The time check queues are meant to make them aware of their time constraints as well as add an additional level of stress. 
+
  
 
 
