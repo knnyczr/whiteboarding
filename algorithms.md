@@ -1,3 +1,7 @@
+#Whiteboarding
+
+Here is a list of algorithmic problems (and solutions) that will help prepare you for your next whiteboarding interview session.  They start easy and increase with difficulty so choose one that is challenging and will push your comfort level.  
+
 ### Standard Algorithms
 1.  Print An Array
 2.  Reverse A String 
@@ -26,6 +30,16 @@
 
 ### Print An Array
 Write a function called `printArr` that will print the items of an array.
+
+<details>
+  <summary><strong>Sample Questions For Printing An Array...</strong></summary>
+
+* What type of values will the array contain: primitives, hashes, arrays? 
+* If it does contain nested arrays, should I loop through and print those values as well? 
+* Is it possible that the array might be empty and should I account for this? 
+* Should the function console.log() the items as they are encountered or should it return a string with newline characters? 
+
+</details>
 
 **Input:** ['sam','ed','harry']
 
