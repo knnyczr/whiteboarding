@@ -17,7 +17,7 @@ Here is a list of algorithmic problems (and solutions) that will help prepare yo
 2.  Binary
 3.  Two Sum 
 4.  Randomize An Array
-5. DNA Strings 
+5.  DNA Strings 
 
 #### Hard
 1.  Longest Substring With No Duplicates 
