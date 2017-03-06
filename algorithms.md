@@ -311,7 +311,6 @@ function phoneBook(input,mapped) {
 Source: [HackerRank](https://www.hackerrank.com/challenges/30-binary-numbers)
 Write a function called `binaryCount` that given a base integer, converts it to binary and then finds and prints maximum number of consecutive '1's in binary. 
 
-Example:
 **Input:** 60 which is 111100 in binary
 
 **Output:** 4
