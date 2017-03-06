@@ -1,6 +1,6 @@
 #Whiteboarding
 
-Here is a list of algorithmic problems (and solutions) that will help prepare you for your next whiteboarding interview session.  They start easy and increase with difficulty so choose one that is challenging and will push your comfort level.  
+Here is a list of algorithmic problems (and solutions) that will help prepare you for your next whiteboarding interview session.  They have been categorized based on difficulty so choose one that is challenging and will push your comfort level.  The solutions to all problems have been provided below but it is advised that you attempt the solve the problem prior to reviewing the full soltuion. 
 
 ### Standard Algorithms
 
