@@ -3,21 +3,27 @@
 Here is a list of algorithmic problems (and solutions) that will help prepare you for your next whiteboarding interview session.  They start easy and increase with difficulty so choose one that is challenging and will push your comfort level.  
 
 ### Standard Algorithms
+
+#### Easy
 1.  Print An Array
 2.  Reverse A String 
 3.  IsPalindrome 
 4.  Find The Largest Number 
 5.  Print A Pyramid 
 6.  Print A Chess Board
-6.  Phone Book 
-7.  Binary
-8.  Two Sum 
-9.  Longest Substring With No Duplicates 
-10.  Repeatify Using Prototypes 
-11.  Stock Market Profit 
-12.  DNA Strings 
-13.  Randomize An Array
-14.  Find The Products
+
+#### Medium
+1.  Phone Book 
+2.  Binary
+3.  Two Sum 
+4.  Randomize An Array
+5. DNA Strings 
+
+#### Hard
+1.  Longest Substring With No Duplicates 
+2.  Repeatify Using Prototypes 
+3.  Stock Market Profit 
+4.  Find The Products
 
 ### Recursion Specific 
 1.  Reverse A String
