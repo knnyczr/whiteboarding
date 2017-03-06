@@ -368,15 +368,15 @@ function twoSum(arr, target) {
 </details>
 ### Longest Substring With No Duplicates
 Source: [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-Write a function called `lengthOfLongestSubstring` that given a string, finds the length of the longest substring without repeating characters.
+Write a function called `lengthOfLongestSubstring` that given a string, returns the length of the longest substring without repeating characters. The function should not return the strings themselves but only the length of the longest substring. 
 
 **Input:** 'abca'
 
-**Output:** 3 ('abc' or 'bca')
+**Output:** 3 (longest string would be: 'abc' or 'bca')
 
 **Input:** 'abcbadb'
 
-**Output:** 4 ('cbad')
+**Output:** 4 (longest string would be:'cbad')
 
 **Hints**
 
