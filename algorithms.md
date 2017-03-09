@@ -84,7 +84,7 @@ Write a function called `reverseString` that will take a string and return the s
 <details>
   <summary><strong>Click to reveal...</strong></summary>
 ```javascript
-var reverseString = function(s) {
+    var reverseString = function(s) {
     var reverse = '';
     for(var i = (s.length-1); i >= 0; i--) {
         reverse += s[i];
@@ -121,7 +121,7 @@ Write a function called `isPalindrome` that will return `true` if a given input 
   <summary><strong>Click to reveal...</strong></summary>
 ```javascript
 function isPalindrome(s){
-var s = s.toString().toLowerCase();
+  var s = s.toString().toLowerCase();
   let arr = s.split(' ').join('').split(''); 
   let reverseInput = [];
   arr.forEach((d) => reverseInput.unshift(d));
