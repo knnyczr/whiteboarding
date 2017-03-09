@@ -122,10 +122,10 @@ Write a function called `isPalindrome` that will return `true` if a given input 
 ```javascript
 function isPalindrome(s){
   var s = s.toString().toLowerCase();
-  let arr = s.split(' ').join('').split(''); 
-  let reverseInput = [];
-  arr.forEach((d) => reverseInput.unshift(d));
-  return reverseInput.join("") == arr.join("");
+  let forward = s.split(' ').join('').split(''); 
+  let reverse = [];
+  arr.forEach((d) => reverse.unshift(d));
+  return reverse.join("") == forward.join("");
 }
 
 ```
