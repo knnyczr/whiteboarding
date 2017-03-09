@@ -136,7 +136,7 @@ function isPalindrome(s){
   <summary><strong>Click to reveal...</strong></summary>
 ```javascript
 function isPalindrome(s) {
-  var s = s.toString().toLowerCase();
+  var s = s.toLowerCase();
   let arr = s.split(' ').join('').split(''); 
   for (let i = 0; i < arr.length / 2; i += 1) {
     if (arr[i] !== arr[arr.length - (i + 1)]) {
