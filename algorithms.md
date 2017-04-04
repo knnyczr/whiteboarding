@@ -127,7 +127,6 @@ function isPalindrome(s){
   arr.forEach((d) => reverse.unshift(d));
   return reverse.join("") == forward.join("");
 }
-
 ```
 </details>
 
@@ -200,8 +199,6 @@ function buildPyramid (rows) {
   }
   return pyramid
 }
-
-
 ```
 </details>
 ### Print A Chessboard
