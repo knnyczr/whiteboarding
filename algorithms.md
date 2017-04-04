@@ -250,6 +250,7 @@ function chessBoard(){
 }
 ```
 </details>
+
 ### Odds And Evens
 Source: [HackerRank](https://www.hackerrank.com/challenges/30-review-loop)
 Write a function called `oddsEvens` that given a string, prints its even-indexed and odd-indexed characters as space-separated strings on a single line. 
@@ -277,6 +278,7 @@ function oddsEvens(input) {
 } 
 ```
 </details>
+
 ### Phone Book
 Source: [HackerRank](https://www.hackerrank.com/challenges/30-dictionaries-and-maps)
 Write a function called `phoneBook` that given two parameters, the first being an array of hashes containing n number of names and phone numbers and the second being an array of friends names will then will assemble a phone book that maps the 'friends' array of names to their respective phone numbers if they are found in the first array.  Each found entry will print the associated entry from your phone book on a new line in the form **name=phoneNumber**; if an entry is not found, print **Not found** instead.
@@ -318,6 +320,7 @@ function phoneBook(input,mapped) {
 } 
 ```
 </details>
+
 ### Binary Count
 Source: [HackerRank](https://www.hackerrank.com/challenges/30-binary-numbers)
 Write a function called `binaryCount` that given a base integer, converts it to binary and then finds and prints maximum number of consecutive '1's in binary. 
@@ -348,6 +351,7 @@ function binaryCount(num){
 }
 ```
 </details>
+
 ### Two Sum
 Source: [Leetcode](https://leetcode.com/problems/two-sum/)
 Write a function called `twoSum` that given an array of integers and a target number, returns two array integers that add up to the target.
@@ -379,6 +383,7 @@ function twoSum(arr, target) {
 }
 ```
 </details>
+
 ### Longest Substring With No Duplicates
 Source: [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 Write a function called `lengthOfLongestSubstring` that given a string, returns the length of the longest substring without repeating characters. The function should not return the strings themselves but only the length of the longest substring. 
