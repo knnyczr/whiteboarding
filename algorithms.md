@@ -423,6 +423,7 @@ function lengthOfLongestSubstring(s) {
 }
 ```
 </details>
+
 ### Repeatify (using prototypes)
 **Part 1:** Write a function called `repeatify` that takes a string and a number.  The number specifies how many times the string should be repeated.
 
@@ -444,6 +445,7 @@ function repeatify(str, n) {
 }
 ```
 </details>
+
 **Part 2:** Let’s update the function so it’s a string method.  Change your code from part 1 so we can call repeatify on a string and just pass it a number.
 
 **Input:** "hello".repeatify(3);
@@ -464,6 +466,7 @@ String.prototype.repeatify = function(n) {
 };
 ```
 </details>
+
 ### Stock Market Profit
 Source: [InterviewCake](https://www.interviewcake.com/question/javascript/stock-price)
 Write an function called `getMaxProfit` that takes in an array of stock prices and returns the best profit you could have made from 1 purchase and 1 sale.  The prices in the array are in the sequence in which they were purchased and can only be sold after it was first purchased.
@@ -496,6 +499,7 @@ function getMaxProfit(stockPricesYesterday) {
 }
 ```
 </details>
+
 ### DNA Strings
 Source: [CodeWars](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
 In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G". Write a function called `dnaTransform` that takes in a DNA string returns a string that represents it's compliment. 
@@ -516,6 +520,7 @@ function dnaTransform(dna){
 }
 ```
 </details>
+
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
@@ -538,6 +543,7 @@ function dnaTransform(dna){
 }
 ```
 </details>
+
 ### Randomize An Array
 Source: [Fisher-Yates Shuffle](https://bost.ocks.org/mike/shuffle/)
 Write a function called `shuffle` that given an array, randomizes the position of the elements and returns the new array. 
@@ -565,6 +571,7 @@ function shuffle(array) {
 }
 ```
 </details>
+
 ### Find The Products
 Source: [InterviewCake](https://www.interviewcake.com/question/javascript/product-of-other-numbers)
 Write a function called `getProducts` that takes in an array of n numbers and for each index finds the product of every integer **except** the integer at that index.
@@ -611,6 +618,7 @@ function getProducts(arr) {
 }
 ```
 </details>
+
 ##Recursion Specific
 
 ### Reverse A String 
@@ -625,6 +633,7 @@ function reverse(s) {
 }
 ```
 </details>
+
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
@@ -638,6 +647,7 @@ function reverse(s) {
 }
 ```
 </details>
+
 ### isPalindrome
 Source: [CodeChewing](http://www.codechewing.com/library/recursive-javascript-function/)
 <details>
@@ -728,6 +738,7 @@ function flatten(arr) {
 }
 ```
 </details>
+
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
