@@ -100,7 +100,7 @@ Write a function called `reverseString` that will take a string and return the s
 **Hint:** Start by creating an array. Then add the right most elements to it (ie. the characters in reverse order) one by one. Then join and return it. 
 <details>
   <summary><strong>Click to reveal...</strong></summary> 
-  
+
 ```javascript
 function reverseString(s) {
   const reverse = [];
@@ -121,6 +121,7 @@ Write a function called `isPalindrome` that will return `true` if a given input 
 #### Solution 1
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function isPalindrome(s){
   var s = s.toString().toLowerCase();
@@ -135,6 +136,7 @@ function isPalindrome(s){
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function isPalindrome(s) {
   var s = s.toString().toLowerCase();
@@ -156,6 +158,7 @@ Write a function called `largestNumber` that will return the largest value from 
 **Output:** 10
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function largestNumber(num){
     let largest = num[0]
@@ -181,6 +184,7 @@ Write a function called `buildPyramid` that given a number, creates a pyramid th
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function buildPyramid (rows) {
   const symbol = '^';
@@ -222,6 +226,7 @@ Write a function called `chessBoard` that creates a string that represents an 8Ã
 ```
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function chessBoard(){
   const size = 8;
@@ -251,6 +256,7 @@ Write a function called `oddsEvens` that given a string, prints its even-indexed
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function oddsEvens(input) {
   let left = '';
@@ -283,6 +289,7 @@ harry:12299933
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function phoneBook(input,mapped) {
   const contacts = [];
@@ -317,6 +324,7 @@ Write a function called `binaryCount` that given a base integer, converts it to 
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function binaryCount(num){
   const b = Number(num).toString(2);
@@ -350,6 +358,7 @@ Write a function called `twoSum` that given an array of integers and a target nu
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function twoSum(arr, target) {
   const hash = {};
@@ -385,6 +394,7 @@ Write a function called `lengthOfLongestSubstring` that given a string, returns 
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function lengthOfLongestSubstring(s) {
   let head = 0;
@@ -413,6 +423,7 @@ function lengthOfLongestSubstring(s) {
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function repeatify(str, n) {
   let result = '';
@@ -432,6 +443,7 @@ function repeatify(str, n) {
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 String.prototype.repeatify = function(n) {
   let result = '';
@@ -453,6 +465,7 @@ Write an function called `getMaxProfit` that takes in an array of stock prices a
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 stock_prices_yesterday = [10, 7, 5, 8, 11, 9]
 
@@ -484,6 +497,7 @@ In DNA strings, symbols "A" and "T" are complements of each other, as are "C" an
 #### Solution 1
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 var dna = "ATTGC";
 function dnaTransform(dna){
@@ -495,6 +509,7 @@ function dnaTransform(dna){
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 const dna = "ATTGC";
 function dnaTransform(dna){
@@ -524,6 +539,7 @@ Write a function called `shuffle` that given an array, randomizes the position o
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function shuffle(array) {
   let len = array.length;
@@ -550,6 +566,7 @@ Write a function called `getProducts` that takes in an array of n numbers and fo
 #### Solution 1
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function getProducts(input) {
   const products = [];
@@ -571,6 +588,7 @@ function getProducts(input) {
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function getProducts(arr) {
   const newArr = [];
@@ -590,6 +608,7 @@ Source: [Ten Ways To Reverse A String](http://eddmann.com/posts/ten-ways-to-reve
 #### Solution 1
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function reverse(s) {
   return (s === '') ? '' : reverse(s.substr(1)) + s.charAt(0);
@@ -599,6 +618,7 @@ function reverse(s) {
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function reverse(s) {
   function rev(s, len, o) {
@@ -612,6 +632,7 @@ function reverse(s) {
 Source: [CodeChewing](http://www.codechewing.com/library/recursive-javascript-function/)
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
   ```javascript
 function isPalindrome(string) {
   if (string.length <= 1) { return true; }
@@ -633,6 +654,7 @@ Given a number, print it's factoral.
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function factoralize(input) {
   function factorial(num) {
@@ -654,6 +676,7 @@ Write a function to compute the sum of an array of integers.
 #### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function arrSum(arr) {
   if (arr.length === 1) {
@@ -677,6 +700,7 @@ Write a function that takes an array and flattens it.  You can assume the array 
 #### Solution 1
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+
 ```javascript
 function fh(arr, result) {
     arr.forEach(function(elm) {
@@ -697,6 +721,7 @@ function flatten(arr) {
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
+  
 ```javascript
 function flatten(arr) {  
   return arr.reduce((a, b) => {
