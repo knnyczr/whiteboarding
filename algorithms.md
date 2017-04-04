@@ -111,6 +111,7 @@ function reverseString(s) {
 }
 ```
 </details>
+
 ### IsPalindrome
 Write a function called `isPalindrome` that will return `true` if a given input (string(s) or number) is a palindrome and `false` if it's not. 
 
@@ -150,6 +151,7 @@ function isPalindrome(s) {
 }
 ```
 </details>
+
 ### Find The Largest Number
 Write a function called `largestNumber` that will return the largest value from an array. 
 
@@ -183,6 +185,7 @@ Write a function called `buildPyramid` that given a number, creates a pyramid th
 ```
 #### Solution
 <details>
+
   <summary><strong>Click to reveal...</strong></summary>
 
 ```javascript
@@ -721,7 +724,7 @@ function flatten(arr) {
 #### Solution 2
 <details>
   <summary><strong>Click to reveal...</strong></summary>
-  
+
 ```javascript
 function flatten(arr) {  
   return arr.reduce((a, b) => {
