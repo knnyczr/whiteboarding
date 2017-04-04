@@ -210,6 +210,7 @@ function buildPyramid (rows) {
 }
 ```
 </details>
+
 ### Print A Chessboard
 Source: [Eloquent Javascript](http://eloquentjavascript.net/code/#2.3)
 Write a function called `chessBoard` that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a “#” character. The characters should form a chess board.
@@ -228,6 +229,7 @@ Write a function called `chessBoard` that creates a string that represents an 8�
 # # # # 
 ```
 <details>
+
   <summary><strong>Click to reveal...</strong></summary>
 
 ```javascript
