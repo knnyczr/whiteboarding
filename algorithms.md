@@ -83,7 +83,7 @@ Write a function called `reverseString` that will take a string and return the s
 #### Solution 1
 <details>
   <summary><strong>Click to reveal...</strong></summary>
-  
+
 ```javascript
     var reverseString = function(s) {
     var reverse = '';
@@ -99,7 +99,8 @@ Write a function called `reverseString` that will take a string and return the s
 
 **Hint:** Start by creating an array. Then add the right most elements to it (ie. the characters in reverse order) one by one. Then join and return it. 
 <details>
-  <summary><strong>Click to reveal...</strong></summary>
+  <summary><strong>Click to reveal...</strong></summary> 
+  
 ```javascript
 function reverseString(s) {
   const reverse = [];
