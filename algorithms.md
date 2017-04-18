@@ -128,7 +128,7 @@ function isPalindrome(s){
   var s = s.toString().toLowerCase();
   let forward = s.split(' ').join('').split(''); 
   let reverse = [];
-  arr.forEach((d) => reverse.unshift(d));
+  forward.forEach((d) => reverse.unshift(d));
   return reverse.join("") == forward.join("");
 }
 ```
@@ -604,6 +604,17 @@ function getProducts(input) {
 
 #### Solution 2
 <details>
+function getProducts(arr) {
+  const result = [];
+  const product = arr.reduce((a, b) => a * b);
+  arr.forEach(num => result.push(product / num));
+  return result;
+}
+```
+</details>
+
+#### Solution 3
+<details>
   <summary><strong>Click to reveal...</strong></summary>
 
 ```javascript
@@ -618,6 +629,7 @@ function getProducts(arr) {
 }
 ```
 </details>
+  <summary><strong>Click to reveal...</strong></summary>
 
 ##Recursion Specific
 
