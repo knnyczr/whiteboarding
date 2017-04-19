@@ -71,7 +71,7 @@ function printArr(input){
 </details>
 
 ### Reverse A String
-Source: [leetcode](https://leetcode.com/problems/reverse-string/)
+Source: [leetcode](https://leetcode.com/problems/reverse-string/).
 
 Write a function called `reverseString` that will take a string and return the string reversed.
 
