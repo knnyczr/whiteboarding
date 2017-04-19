@@ -71,8 +71,6 @@ function printArr(input){
 </details>
 
 ### Reverse A String
-Source: [leetcode](https://leetcode.com/problems/reverse-string/).
-
 Write a function called `reverseString` that will take a string and return the string reversed.
 
 **Input:** 'abcd'
@@ -112,6 +110,8 @@ function reverseString(s) {
 }
 ```
 </details>
+
+Source: [leetcode](https://leetcode.com/problems/reverse-string/).
 
 ### IsPalindrome
 Write a function called `isPalindrome` that will return `true` if a given input (string(s) or number) is a palindrome and `false` if it's not. 
