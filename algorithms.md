@@ -111,7 +111,7 @@ function reverseString(s) {
 ```
 </details>
 
-Source: [leetcode](https://leetcode.com/problems/reverse-string/).
+#### Source: [leetcode](https://leetcode.com/problems/reverse-string/).
 
 ### IsPalindrome
 Write a function called `isPalindrome` that will return `true` if a given input (string(s) or number) is a palindrome and `false` if it's not. 
