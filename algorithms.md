@@ -5,35 +5,36 @@ Here is a list of algorithmic problems (and solutions) that will help prepare yo
 ### Standard Algorithms
 
 #### Easy
-1.  Print An Array
-2.  Reverse A String 
-3.  IsPalindrome 
-4.  Find The Largest Number 
-5.  Print A Pyramid 
-6.  Print A Chess Board
+1.  [Print An Array](#print-an-array)
+2.  [Reverse A String](#reverse-a-string)
+3.  [IsPalindrome](#is-palindrome)
+4.  [Find The Largest Number](#find-the-largest-number)
+5.  [Print A Pyramid](#print-a-pyramid)
+6.  [Print A Chess Board](#print-a-chess-board)
 
 #### Medium
-1.  Phone Book 
-2.  Binary
-3.  Two Sum 
-4.  Randomize An Array
-5.  DNA Strings 
+1.  [Phone Book](#phone-book)
+2.  [Binary Count](#binary-count)
+3.  [Two Sum](#two-sum)
+4.  [Randomize An Array](#randomize-an-array)
+5.  [DNA Strings](#dna-strings)
 
 #### Hard
-1.  Longest Substring With No Duplicates 
-2.  Repeatify Using Prototypes 
-3.  Stock Market Profit 
-4.  Find The Products
+1.  [Longest Substring With No Duplicates](#longest-substring-with-no-duplicates)
+2.  [Repeatify (Using Prototypes)](#repeatify-using-prototypes)
+3.  [Stock Market Profit](#stock-market-profit)
+4.  [Find The Products](#find-the-products)
 
 ### Recursion Specific 
-1.  Reverse A String
-2.  isPalindrome
-3.  Factorial
-4.  Sum Array Of Integers
-5.  Flatten An Array 
+1.  [Reverse A String](#reverse-a-string-recursive)
+2.  [isPalindrome](#is-palindrome-recursive)
+3.  [Factorial](#factorial)
+4.  [Sum Array Of Integers](#sum-array-of-integers)
+5.  [Flatten An Array](#flatten-an-array)
 
 ***
 
+<a name="print-an-array"></a>
 ### Print An Array
 Write a function called `printArr` that will print the items of an array.
 
@@ -70,6 +71,7 @@ function printArr(input){
 ```
 </details>
 
+<a name="reverse-a-string"></a>
 ### Reverse A String
 Write a function called `reverseString` that will take a string and return the string reversed.
 
@@ -113,6 +115,7 @@ function reverseString(s) {
 
 #### Source: [leetcode](https://leetcode.com/problems/reverse-string/)
 
+<a name="is-palindrome"></a>
 ### IsPalindrome
 Write a function called `isPalindrome` that will return `true` if a given input (string(s) or number) is a palindrome and `false` if it's not. 
 
@@ -153,6 +156,7 @@ function isPalindrome(s) {
 ```
 </details>
 
+<a name="find-the-largest-number"></a>
 ### Find The Largest Number
 Write a function called `largestNumber` that will return the largest value from an array. 
 
@@ -172,6 +176,8 @@ function largestNumber(num){
 }
 ```
 </details>
+
+<a name="print-a-pyramid"></a>
 ### Print A Pyramid
 Write a function called `buildPyramid` that given a number, creates a pyramid that is that number of rows. 
 
@@ -212,7 +218,8 @@ function buildPyramid (rows) {
 ```
 </details>
 
-### Print A Chessboard
+<a name="print-a-chess-board"></a>
+### Print A Chess Board
 
 Write a function called `chessBoard` that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a “#” character. The characters should form a chess board.
 
@@ -254,6 +261,7 @@ function chessBoard(){
 
 <span>Source:</span> [Eloquent Javascript](http://eloquentjavascript.net/code/#2.3)
 
+<a name="odds-and-evens"></a>
 ### Odds And Evens
 
 Write a function called `oddsEvens` that given a string, prints its even-indexed and odd-indexed characters as space-separated strings on a single line. 
@@ -284,6 +292,7 @@ function oddsEvens(input) {
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-review-loop)
 
+<a name="phone-book"></a>
 ### Phone Book
 
 Write a function called `phoneBook` that given two parameters, the first being an array of hashes containing n number of names and phone numbers and the second being an array of friends  names will then will assemble a phone book that maps the 'friends' array of names to their respective phone numbers if they are found in the first array.  Each found entry will print the associated entry from your phone book on a new line in the form **name=phoneNumber**; if an entry is not found, print **Not found** instead.
@@ -328,6 +337,7 @@ function phoneBook(input,mapped) {
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-dictionaries-and-maps)
 
+<a name="binary-count"></a>
 ### Binary Count
 
 Write a function called `binaryCount` that given a base integer, converts it to binary and then finds and prints maximum number of consecutive '1's in binary. 
@@ -361,6 +371,7 @@ function binaryCount(num){
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-binary-numbers)
 
+<a name="two-sum"></a>
 ### Two Sum
 
 Write a function called `twoSum` that given an array of integers and a target number, returns two array integers that add up to the target.
@@ -395,6 +406,7 @@ function twoSum(arr, target) {
 
 <span>Source:</span> [Leetcode](https://leetcode.com/problems/two-sum/)
 
+<a name="longest-substring-with-no-duplicates"></a>
 ### Longest Substring With No Duplicates
 
 Write a function called `lengthOfLongestSubstring` that given a string, returns the length of the longest substring without repeating characters. The function should not return the strings themselves but only the length of the longest substring. 
@@ -437,7 +449,8 @@ function lengthOfLongestSubstring(s) {
 
 <span>Source:</span> [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
-### Repeatify (using prototypes)
+<a name="repeatify-using-prototypes"></a>
+### Repeatify (Using Prototypes)
 **Part 1:** Write a function called `repeatify` that takes a string and a number.  The number specifies how many times the string should be repeated.
 
 **Input:** repeatify("hello", 3);
@@ -480,6 +493,7 @@ String.prototype.repeatify = function(n) {
 ```
 </details>
 
+<a name="stock-market-profit"></a>
 ### Stock Market Profit
 
 Write an function called `getMaxProfit` that takes in an array of stock prices and returns the best profit you could have made from 1 purchase and 1 sale.  The prices in the array are in the sequence in which they were purchased and can only be sold after it was first purchased.
@@ -515,6 +529,7 @@ function getMaxProfit(stockPricesYesterday) {
 
 <span>Source:</span> [InterviewCake](https://www.interviewcake.com/question/javascript/stock-price)
 
+<a name="dna-strings"></a>
 ### DNA Strings
 
 In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G". Write a function called `dnaTransform` that takes in a DNA string returns a string that represents it's compliment. 
@@ -563,6 +578,7 @@ function dnaTransform(dna){
 
 <span>Source:</span> [CodeWars](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
 
+<a name="randomize-an-array"></a>
 ### Randomize An Array
 
 Write a function called `shuffle` that given an array, randomizes the position of the elements and returns the new array. 
@@ -593,6 +609,7 @@ function shuffle(array) {
 
 <span>Source:</span> [Fisher-Yates Shuffle](https://bost.ocks.org/mike/shuffle/)
 
+<a name="find-the-products"></a>
 ### Find The Products
 
 Write a function called `getProducts` that takes in an array of n numbers and for each index finds the product of every integer **except** the integer at that index.
@@ -658,6 +675,7 @@ function getProducts(arr) {
 
 ## Recursion Specific
 
+<a name="reverse-a-string-recursive"></a>
 ### Reverse A String 
 
 #### Solution 1
@@ -687,12 +705,13 @@ function reverse(s) {
 
 <span>Source:</span> [Ten Ways To Reverse A String](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)
 
+<a name="is-palindrome-recursive"></a>
 ### isPalindrome
 
 <details>
   <summary><strong>Click to reveal...</strong></summary>
 
-  ```javascript
+```javascript
 function isPalindrome(string) {
   if (string.length <= 1) { return true; }
   if (string.charAt(0) !== string.charAt(string.length - 1)) { return false; }
@@ -703,9 +722,10 @@ function isPalindrome(string) {
 
 <span>Source:</span> [CodeChewing](http://www.codechewing.com/library/recursive-javascript-function/)
 
+<a name="factorial"></a>
 ### Factorial
 
-Given a number, print it's factoral.
+Given a number, print its factorial.
 
 **Input:** 5 
 
@@ -727,6 +747,7 @@ function factoralize(input) {
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-recursion/submissions/code/37642498)
 
+<a name="sum-array-of-integers"></a>
 ### Sum Array Of Integers
 
 Write a function to compute the sum of an array of integers.
@@ -753,6 +774,7 @@ function arrSum(arr) {
 
 <span>Source:</span> [W3Resource](http://www.w3resource.com/javascript-exercises/javascript-recursion-functions-exercises.php?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+w3resource+%28w3resource%29)
 
+<a name="flatten-an-array"></a>
 ### Flatten An Array
 
 Write a function that takes an array and flattens it.  You can assume the array only contains arrays and primitives (Numbers, Strings, Booleans, etc.).

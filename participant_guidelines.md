@@ -2,7 +2,7 @@
 
 * **Participant Choice** - Choose an algorithm that is challenging yet something you feel can be completed in the allotted time. 
 
-* **Ask Questions** -  At a bare minimum make sure to **reinstate the question** and **confirm the requirements**.  If something is not clear or you feel additional information is needed before you can continue, be sure to ask your interviewer for clarification with at least 1 or 2 questions needed to eliminate any ambiguity. 
+* **Ask Questions** -  At a bare minimum make sure to **restate the question** and **confirm the requirements**.  If something is not clear or you feel additional information is needed before you can continue, be sure to ask your interviewer for clarification with at least 1 or 2 questions needed to eliminate any ambiguity. 
 
 * **Explain your thought process** - After the details of the task are clear, be sure to **talk out loud** as you begin to solve the problem. The interviewer wants to know what is going on in your head and to understand your approach, so being able to **explain your thoughts** is crucial. For this portion of your interview, often times, you will be judged on your thought process, regardless of whether you’re able to provide a solid answer.
 
