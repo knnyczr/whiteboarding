@@ -169,6 +169,8 @@ Write a function called `largestNumber` that will return the largest value from 
 **Input:** [1,2,5,10]
 
 **Output:** 10
+
+#### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
 
@@ -235,7 +237,8 @@ Write a function called `chessBoard` that creates a string that represents an 8Ã
 
 **Input:** console.log(chessBoard())
 
-**Output:** 
+**Output:**
+
 ```javascript
  # # # #
 # # # # 
@@ -246,8 +249,9 @@ Write a function called `chessBoard` that creates a string that represents an 8Ã
  # # # #
 # # # # 
 ```
-<details>
 
+#### Solution
+<details>
   <summary><strong>Click to reveal...</strong></summary>
 
 ```javascript
@@ -740,6 +744,7 @@ ____
 <a name="is-palindrome-recursive"></a>
 ### isPalindrome
 
+#### Solution
 <details>
   <summary><strong>Click to reveal...</strong></summary>
 
