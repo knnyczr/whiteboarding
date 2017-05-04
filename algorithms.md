@@ -111,7 +111,7 @@ function reverseString(s) {
 ```
 </details>
 
-#### Source: [leetcode](https://leetcode.com/problems/reverse-string/).
+#### Source: [leetcode](https://leetcode.com/problems/reverse-string/)
 
 ### IsPalindrome
 Write a function called `isPalindrome` that will return `true` if a given input (string(s) or number) is a palindrome and `false` if it's not. 
@@ -282,7 +282,7 @@ function oddsEvens(input) {
 
 ### Phone Book
 Source: [HackerRank](https://www.hackerrank.com/challenges/30-dictionaries-and-maps)
-Write a function called `phoneBook` that given two parameters, the first being an array of hashes containing n number of names and phone numbers and the second being an array of friends names will then will assemble a phone book that maps the 'friends' array of names to their respective phone numbers if they are found in the first array.  Each found entry will print the associated entry from your phone book on a new line in the form **name=phoneNumber**; if an entry is not found, print **Not found** instead.
+Write a function called `phoneBook` that given two parameters, the first being an array of hashes containing n number of names and phone numbers and the second being an array of friends  names will then will assemble a phone book that maps the 'friends' array of names to their respective phone numbers if they are found in the first array.  Each found entry will print the associated entry from your phone book on a new line in the form **name=phoneNumber**; if an entry is not found, print **Not found** instead.
 
 **Input 1:** [{sam:99912222},{tom:11122222},{harry:12299933}]
 
@@ -574,7 +574,7 @@ function shuffle(array) {
 </details>
 
 ### Find The Products
-Source: [InterviewCake](https://www.interviewcake.com/question/javascript/product-of-other-numbers)
+
 Write a function called `getProducts` that takes in an array of n numbers and for each index finds the product of every integer **except** the integer at that index.
 
 **Input:** getProducts([1,2,3,4])
@@ -604,7 +604,10 @@ function getProducts(input) {
 </details>
 
 #### Solution 2
+
 <details>
+ <summary><strong>Click to reveal...</strong></summary>
+```javascript
 function getProducts(arr) {
   const result = [];
   const product = arr.reduce((a, b) => a * b);
@@ -630,9 +633,10 @@ function getProducts(arr) {
 }
 ```
 </details>
-  <summary><strong>Click to reveal...</strong></summary>
 
-##Recursion Specific
+Source: [InterviewCake](https://www.interviewcake.com/question/javascript/product-of-other-numbers)
+
+## Recursion Specific
 
 ### Reverse A String 
 Source: [Ten Ways To Reverse A String](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)
