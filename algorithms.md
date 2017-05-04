@@ -71,6 +71,8 @@ function printArr(input){
 ```
 </details>
 
+____
+
 <a name="reverse-a-string"></a>
 ### Reverse A String
 Write a function called `reverseString` that will take a string and return the string reversed.
@@ -115,6 +117,8 @@ function reverseString(s) {
 
 #### Source: [leetcode](https://leetcode.com/problems/reverse-string/)
 
+____
+
 <a name="is-palindrome"></a>
 ### IsPalindrome
 Write a function called `isPalindrome` that will return `true` if a given input (string(s) or number) is a palindrome and `false` if it's not. 
@@ -156,6 +160,8 @@ function isPalindrome(s) {
 ```
 </details>
 
+____
+
 <a name="find-the-largest-number"></a>
 ### Find The Largest Number
 Write a function called `largestNumber` that will return the largest value from an array. 
@@ -176,6 +182,8 @@ function largestNumber(num){
 }
 ```
 </details>
+
+____
 
 <a name="print-a-pyramid"></a>
 ### Print A Pyramid
@@ -217,6 +225,8 @@ function buildPyramid (rows) {
 }
 ```
 </details>
+
+____
 
 <a name="print-a-chess-board"></a>
 ### Print A Chess Board
@@ -261,6 +271,8 @@ function chessBoard(){
 
 <span>Source:</span> [Eloquent Javascript](http://eloquentjavascript.net/code/#2.3)
 
+____
+
 <a name="odds-and-evens"></a>
 ### Odds And Evens
 
@@ -291,6 +303,8 @@ function oddsEvens(input) {
 </details>
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-review-loop)
+
+____
 
 <a name="phone-book"></a>
 ### Phone Book
@@ -337,6 +351,8 @@ function phoneBook(input,mapped) {
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-dictionaries-and-maps)
 
+____
+
 <a name="binary-count"></a>
 ### Binary Count
 
@@ -370,6 +386,8 @@ function binaryCount(num){
 </details>
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-binary-numbers)
+
+____
 
 <a name="two-sum"></a>
 ### Two Sum
@@ -405,6 +423,8 @@ function twoSum(arr, target) {
 </details>
 
 <span>Source:</span> [Leetcode](https://leetcode.com/problems/two-sum/)
+
+____
 
 <a name="longest-substring-with-no-duplicates"></a>
 ### Longest Substring With No Duplicates
@@ -448,6 +468,8 @@ function lengthOfLongestSubstring(s) {
 </details>
 
 <span>Source:</span> [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+____
 
 <a name="repeatify-using-prototypes"></a>
 ### Repeatify (Using Prototypes)
@@ -493,6 +515,8 @@ String.prototype.repeatify = function(n) {
 ```
 </details>
 
+____
+
 <a name="stock-market-profit"></a>
 ### Stock Market Profit
 
@@ -528,6 +552,8 @@ function getMaxProfit(stockPricesYesterday) {
 </details>
 
 <span>Source:</span> [InterviewCake](https://www.interviewcake.com/question/javascript/stock-price)
+
+____
 
 <a name="dna-strings"></a>
 ### DNA Strings
@@ -578,6 +604,8 @@ function dnaTransform(dna){
 
 <span>Source:</span> [CodeWars](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
 
+____
+
 <a name="randomize-an-array"></a>
 ### Randomize An Array
 
@@ -608,6 +636,8 @@ function shuffle(array) {
 </details>
 
 <span>Source:</span> [Fisher-Yates Shuffle](https://bost.ocks.org/mike/shuffle/)
+
+____
 
 <a name="find-the-products"></a>
 ### Find The Products
@@ -705,6 +735,8 @@ function reverse(s) {
 
 <span>Source:</span> [Ten Ways To Reverse A String](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)
 
+____
+
 <a name="is-palindrome-recursive"></a>
 ### isPalindrome
 
@@ -721,6 +753,8 @@ function isPalindrome(string) {
 </details>
 
 <span>Source:</span> [CodeChewing](http://www.codechewing.com/library/recursive-javascript-function/)
+
+____
 
 <a name="factorial"></a>
 ### Factorial
@@ -746,6 +780,8 @@ function factoralize(input) {
 </details>
 
 <span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-recursion/submissions/code/37642498)
+
+____
 
 <a name="sum-array-of-integers"></a>
 ### Sum Array Of Integers
@@ -773,6 +809,8 @@ function arrSum(arr) {
 </details>
 
 <span>Source:</span> [W3Resource](http://www.w3resource.com/javascript-exercises/javascript-recursion-functions-exercises.php?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+w3resource+%28w3resource%29)
+
+____
 
 <a name="flatten-an-array"></a>
 ### Flatten An Array
