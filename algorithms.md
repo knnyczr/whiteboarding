@@ -517,8 +517,10 @@ In DNA strings, symbols "A" and "T" are complements of each other, as are "C" an
 var dna = "ATTGC";
 function dnaTransform(dna){
   const dnaObj = { A: 'T', T: 'A', G: 'C', C: 'G' };
-  return dna.split('').map((d) =>  dnaObj[d] );
+  var complements = dna.split('').map((x) =>  dnaObj[x]);
+  return complements.join('');
 }
+dnaTransform(dna);
 ```
 </details>
 
