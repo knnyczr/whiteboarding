@@ -213,7 +213,7 @@ function buildPyramid (rows) {
 </details>
 
 ### Print A Chessboard
-Source: [Eloquent Javascript](http://eloquentjavascript.net/code/#2.3)
+
 Write a function called `chessBoard` that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a “#” character. The characters should form a chess board.
 
 **Input:** console.log(chessBoard())
@@ -252,8 +252,10 @@ function chessBoard(){
 ```
 </details>
 
+<span>Source:</span> [Eloquent Javascript](http://eloquentjavascript.net/code/#2.3)
+
 ### Odds And Evens
-Source: [HackerRank](https://www.hackerrank.com/challenges/30-review-loop)
+
 Write a function called `oddsEvens` that given a string, prints its even-indexed and odd-indexed characters as space-separated strings on a single line. 
 
 **Input:** Hacker
@@ -280,8 +282,10 @@ function oddsEvens(input) {
 ```
 </details>
 
+<span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-review-loop)
+
 ### Phone Book
-Source: [HackerRank](https://www.hackerrank.com/challenges/30-dictionaries-and-maps)
+
 Write a function called `phoneBook` that given two parameters, the first being an array of hashes containing n number of names and phone numbers and the second being an array of friends  names will then will assemble a phone book that maps the 'friends' array of names to their respective phone numbers if they are found in the first array.  Each found entry will print the associated entry from your phone book on a new line in the form **name=phoneNumber**; if an entry is not found, print **Not found** instead.
 
 **Input 1:** [{sam:99912222},{tom:11122222},{harry:12299933}]
@@ -322,8 +326,10 @@ function phoneBook(input,mapped) {
 ```
 </details>
 
+<span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-dictionaries-and-maps)
+
 ### Binary Count
-Source: [HackerRank](https://www.hackerrank.com/challenges/30-binary-numbers)
+
 Write a function called `binaryCount` that given a base integer, converts it to binary and then finds and prints maximum number of consecutive '1's in binary. 
 
 **Input:** 60 which is 111100 in binary
@@ -353,8 +359,10 @@ function binaryCount(num){
 ```
 </details>
 
+<span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-binary-numbers)
+
 ### Two Sum
-Source: [Leetcode](https://leetcode.com/problems/two-sum/)
+
 Write a function called `twoSum` that given an array of integers and a target number, returns two array integers that add up to the target.
 
 **Input:** [3, 2, 5, 7, 11, 15], 9
@@ -385,8 +393,10 @@ function twoSum(arr, target) {
 ```
 </details>
 
+<span>Source:</span> [Leetcode](https://leetcode.com/problems/two-sum/)
+
 ### Longest Substring With No Duplicates
-Source: [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
 Write a function called `lengthOfLongestSubstring` that given a string, returns the length of the longest substring without repeating characters. The function should not return the strings themselves but only the length of the longest substring. 
 
 **Input:** 'abca'
@@ -424,6 +434,8 @@ function lengthOfLongestSubstring(s) {
 }
 ```
 </details>
+
+<span>Source:</span> [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ### Repeatify (using prototypes)
 **Part 1:** Write a function called `repeatify` that takes a string and a number.  The number specifies how many times the string should be repeated.
@@ -469,7 +481,7 @@ String.prototype.repeatify = function(n) {
 </details>
 
 ### Stock Market Profit
-Source: [InterviewCake](https://www.interviewcake.com/question/javascript/stock-price)
+
 Write an function called `getMaxProfit` that takes in an array of stock prices and returns the best profit you could have made from 1 purchase and 1 sale.  The prices in the array are in the sequence in which they were purchased and can only be sold after it was first purchased.
 
 **Input:** getMaxProfit([10, 7, 5, 8, 11, 9])
@@ -501,8 +513,10 @@ function getMaxProfit(stockPricesYesterday) {
 ```
 </details>
 
+<span>Source:</span> [InterviewCake](https://www.interviewcake.com/question/javascript/stock-price)
+
 ### DNA Strings
-Source: [CodeWars](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
+
 In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G". Write a function called `dnaTransform` that takes in a DNA string returns a string that represents it's compliment. 
 
 **Input:** dnaTransform("ATTGC")
@@ -547,8 +561,10 @@ function dnaTransform(dna){
 ```
 </details>
 
+<span>Source:</span> [CodeWars](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
+
 ### Randomize An Array
-Source: [Fisher-Yates Shuffle](https://bost.ocks.org/mike/shuffle/)
+
 Write a function called `shuffle` that given an array, randomizes the position of the elements and returns the new array. 
 
 **Input:** shuffle(['a','b','c','d'])
@@ -574,6 +590,8 @@ function shuffle(array) {
 }
 ```
 </details>
+
+<span>Source:</span> [Fisher-Yates Shuffle](https://bost.ocks.org/mike/shuffle/)
 
 ### Find The Products
 
@@ -636,12 +654,12 @@ function getProducts(arr) {
 ```
 </details>
 
-Source: [InterviewCake](https://www.interviewcake.com/question/javascript/product-of-other-numbers)
+<span>Source:</span> [InterviewCake](https://www.interviewcake.com/question/javascript/product-of-other-numbers)
 
 ## Recursion Specific
 
 ### Reverse A String 
-Source: [Ten Ways To Reverse A String](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)
+
 #### Solution 1
 <details>
   <summary><strong>Click to reveal...</strong></summary>
@@ -667,8 +685,10 @@ function reverse(s) {
 ```
 </details>
 
+<span>Source:</span> [Ten Ways To Reverse A String](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)
+
 ### isPalindrome
-Source: [CodeChewing](http://www.codechewing.com/library/recursive-javascript-function/)
+
 <details>
   <summary><strong>Click to reveal...</strong></summary>
 
@@ -681,9 +701,10 @@ function isPalindrome(string) {
 ```
 </details>
 
+<span>Source:</span> [CodeChewing](http://www.codechewing.com/library/recursive-javascript-function/)
 
 ### Factorial
-Source: [HackerRank](https://www.hackerrank.com/challenges/30-recursion/submissions/code/37642498)
+
 Given a number, print it's factoral.
 
 **Input:** 5 
@@ -704,8 +725,10 @@ function factoralize(input) {
 ```
 </details>
 
+<span>Source:</span> [HackerRank](https://www.hackerrank.com/challenges/30-recursion/submissions/code/37642498)
+
 ### Sum Array Of Integers
-Source: [W3Resource](http://www.w3resource.com/javascript-exercises/javascript-recursion-functions-exercises.php?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+w3resource+%28w3resource%29)
+
 Write a function to compute the sum of an array of integers.
 
 **Input:** [1,2,3]
@@ -728,8 +751,10 @@ function arrSum(arr) {
 ``` 
 </details>
 
+<span>Source:</span> [W3Resource](http://www.w3resource.com/javascript-exercises/javascript-recursion-functions-exercises.php?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+w3resource+%28w3resource%29)
+
 ### Flatten An Array
-Source: [CodeTuts](https://codetuts.tech/flatten-deep-nested-array-object/)
+
 Write a function that takes an array and flattens it.  You can assume the array only contains arrays and primitives (Numbers, Strings, Booleans, etc.).
 
 **Input:** [1,[2,3],[[4], 5]]
@@ -771,3 +796,4 @@ function flatten(arr) {
 ```
 </details>
 
+<span>Source:</span> [CodeTuts](https://codetuts.tech/flatten-deep-nested-array-object/)
