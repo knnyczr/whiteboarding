@@ -5,32 +5,32 @@ Here is a list of algorithmic problems (and solutions) that will help prepare yo
 ### Standard Algorithms
 
 #### Easy
-1.  [Print An Array](#print-an-array)
-2.  [Reverse A String](#reverse-a-string)
-3.  [IsPalindrome](#is-palindrome)
-4.  [Find The Largest Number](#find-the-largest-number)
-5.  [Print A Pyramid](#print-a-pyramid)
-6.  [Print A Chess Board](#print-a-chess-board)
+1.  [Print An Array](#user-content-print-an-array)
+2.  [Reverse A String](#user-content-reverse-a-string)
+3.  [IsPalindrome](#user-content-is-palindrome)
+4.  [Find The Largest Number](#user-content-find-the-largest-number)
+5.  [Print A Pyramid](#user-content-print-a-pyramid)
+6.  [Print A Chess Board](#user-content-print-a-chess-board)
 
 #### Medium
-1.  [Phone Book](#phone-book)
-2.  [Binary Count](#binary-count)
-3.  [Two Sum](#two-sum)
-4.  [Randomize An Array](#randomize-an-array)
-5.  [DNA Strings](#dna-strings)
+1.  [Phone Book](#user-content-phone-book)
+2.  [Binary Count](#user-content-binary-count)
+3.  [Two Sum](#user-content-two-sum)
+4.  [Randomize An Array](#user-content-randomize-an-array)
+5.  [DNA Strings](#user-content-dna-strings)
 
 #### Hard
-1.  [Longest Substring With No Duplicates](#longest-substring-with-no-duplicates)
-2.  [Repeatify (Using Prototypes)](#repeatify-using-prototypes)
-3.  [Stock Market Profit](#stock-market-profit)
-4.  [Find The Products](#find-the-products)
+1.  [Longest Substring With No Duplicates](#user-content-longest-substring-with-no-duplicates)
+2.  [Repeatify (Using Prototypes)](#user-content-repeatify-using-prototypes)
+3.  [Stock Market Profit](#user-content-stock-market-profit)
+4.  [Find The Products](#user-content-find-the-products)
 
 ### Recursion Specific 
-1.  [Reverse A String](#reverse-a-string-recursive)
-2.  [isPalindrome](#is-palindrome-recursive)
-3.  [Factorial](#factorial)
-4.  [Sum Array Of Integers](#sum-array-of-integers)
-5.  [Flatten An Array](#flatten-an-array)
+1.  [Reverse A String](#user-content-reverse-a-string-recursive)
+2.  [isPalindrome](#user-content-is-palindrome-recursive)
+3.  [Factorial](#user-content-factorial)
+4.  [Sum Array Of Integers](#user-content-sum-array-of-integers)
+5.  [Flatten An Array](#user-content-flatten-an-array)
 
 ***
 
