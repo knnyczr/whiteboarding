@@ -1,6 +1,10 @@
 # Whiteboarding
 
-Here is a list of algorithmic problems (and solutions) that will help prepare you for your next whiteboarding interview session.  They have been categorized based on difficulty so choose one that is challenging and will push your comfort level.  The solutions to all problems have been provided here but it is advised that you attempt the solve the problem prior to reviewing the full soltuion. 
+Whiteboarding interviews are somewhat controversial these days, as critics point out that the ability to memorize algorithms doesn't necessarily equate to the ability to write good software. Nevertheless, many companies still use whitebarding interviews, and you should be prepared in case you get thrown into one.
+
+Here is our list of [participant guidelines](participant_guidelines.md) to help you make the most of this session. The most important thing to take away from tonight is that communication is your friend -- ask good questions at the beginning and throughout the interview, talk out loud as you're solving the problem on the board, and write clear pseudo-code, both so that the interviewer can understand your problem-solving process and so that you know what your next steps are if you get lost while writing code.
+
+Below is a list of algorithmic problems (and solutions) that will help prepare you for your next whiteboarding interview session.  They have been categorized based on difficulty so choose one that is challenging and will push your comfort level.  The solutions to all problems have been provided here but it is advised that you attempt the solve the problem prior to reviewing the full soltuion. 
 
 ### Standard Algorithms
 
