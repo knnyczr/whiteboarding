@@ -37,13 +37,16 @@ So we need stay at least one ahead of **i**. If we set **j = 1** that would do t
 That leads us to think about how to consistently stay one value ahead of **i**.  The standard way of doing this is by setting **j = i + 1**.  
 
 ![](images/solution.jpg)
+<img src="images/solution.jpg" width="500">
 
 ### Additional Visual Whiteboarding Examples
 
 **Problem:** Take an array and return an array of only the even integers.
 
 ![](images/numsandeven.png)
+<img src="images/numsandeven.png" width="500">
 
 **Problem:** Palindrome
 
 ![](images/palindrome.jpg)
+<img src="images/palindrome.jpg" width="500">
