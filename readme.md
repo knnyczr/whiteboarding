@@ -17,7 +17,6 @@ Here are some visualization techniques that can help with this process.
 
 Let's incorporate these techniques as we attempt to solve one our favorite algo's....**TwoSum**.   The first thing we do is rewrite the objective of the problem and create two arrays, one that has two values that equal the target and one that doesn't.  
 
-![](images/twosum-defined.jpg)
 <img src="images/twosum-defined.JPG" width="500" height="300">
 
 Of course there are additional edge cases that you could include but these two are good for now. 
@@ -25,6 +24,7 @@ Of course there are additional edge cases that you could include but these two a
 Now that we know what a solution would look like let's move onto how we would approach returning the values.  Our first approach is to **brute force** is a nested for loop.  The image below is an attempt to work out what the starting value of **j** should be when we start the loop.  
 
 ![](images/nestedloop.jpg)
+<img src="images/nestedloop.JPG" width="500" height="300">
 
 If we set **j = 0** then we will add the same value to itself, which equals the sum but doesn't meet the criteria of 2 different numbers. 
 
