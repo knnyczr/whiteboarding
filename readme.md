@@ -27,7 +27,6 @@ Now that we know what a solution would look like let's move onto how we would ap
 
 If we set **j = 0** then we will add the same value to itself, which equals the sum but doesn't meet the criteria of 2 different numbers. 
 
-![](images/sameposition1.jpg)
 <img src="images/sameposition1.JPG" width="500">
 
 So we need stay at least one ahead of **i**. If we set **j = 1** that would do the trick, at least for the first interation of **i** but we run into the same problem as before.
