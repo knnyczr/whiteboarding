@@ -4,6 +4,7 @@ Whiteboarding interviews are somewhat controversial these days, as critics point
 
 ## Writing Good Pseudocode
 
+Work in progress...so be patient...
 
 ## Visualizing the Problem
 
