@@ -32,6 +32,7 @@ If we set **j = 0** then we will add the same value to itself, which equals the 
 So we need stay at least one ahead of **i**. If we set **j = 1** that would do the trick, at least for the first interation of **i** but we run into the same problem as before.
 
 ![](images/sameposition2.jpg)
+<img src="images/sameposition2.JPG" width="500">
 
 That leads us to think about how to consistently stay one value ahead of **i**.  The standard way of doing this is by setting **j = i + 1**.  
 
