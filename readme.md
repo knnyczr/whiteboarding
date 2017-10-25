@@ -7,6 +7,7 @@ Whiteboarding interviews are somewhat controversial these days, as critics point
 ## Writing Good Pseudocode
 
 Work in progress...so be patient...
+[Link to google doc](https://docs.google.com/document/d/1SteW7BRLDGHcvvEIuvlYCuvoItxbHiNSK_tgfqYXJuU/edit#heading=h.6ihyy7ilpc4n)
 
 ## Visualizing the Problem
 
