@@ -1,5 +1,7 @@
 ### Participant Guidelines:
 
+The most important thing to take away from tonight is that communication is key -- ask good questions at the beginning and throughout the interview, talk out loud as you're solving the problem on the board, and write clear pseudo-code, both so that the interviewer can understand your problem-solving process and so that you know what your next steps are if you get lost while writing code.
+
 * **Participant Choice** - Choose an algorithm that is challenging yet something you feel can be completed in the allotted time. 
 
 * **Ask Questions** -  At a bare minimum make sure to **restate the question** and **confirm the requirements**. What language(s) am I allowed to use to solve the problem?  For a problem that deals with strings, how should I treat upper- and lower-case characters, spaces, and special characters?  If something is not clear or you feel additional information is needed before you can continue, be sure to ask your interviewer for clarification with at least 1 or 2 questions needed to eliminate any ambiguity. 
