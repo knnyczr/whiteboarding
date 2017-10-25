@@ -18,7 +18,7 @@ Here are some visualization techniques that can help with this process.
 Let's incorporate these techniques as we attempt to solve one our favorite algo's....**TwoSum**.   The first thing we do is rewrite the objective of the problem and create two arrays, one that has two values that equal the target and one that doesn't.  
 
 ![](images/twosum-defined.jpg)
-<img src="images/twosum-defined.jpg" width="500">
+<img src="images/twosum-defined.JPG" width="500">
 
 Of course there are additional edge cases that you could include but these two are good for now. 
 
