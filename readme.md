@@ -1,6 +1,6 @@
 # Whiteboarding
 
-[https://tinyurl.com/ydxh949r](https://tinyurl.com/ydxh949r)
+[https://tinyurl.com/wdi-nyc](https://tinyurl.com/wdi-nyc)
 
 Whiteboarding interviews are somewhat controversial these days, as critics point out that the ability to memorize algorithms doesn't necessarily equate to the ability to write good software. Nevertheless, many companies still use whitebarding interviews, and you should be prepared in case you get thrown into one.
 
