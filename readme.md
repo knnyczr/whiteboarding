@@ -39,7 +39,7 @@ So we need stay at least one ahead of **i**. If we set **j = 1** that would do t
 
 That leads us to think about how to consistently stay one value ahead of **i**.  The standard way of doing this is by setting **j = i + 1**.  
 
-<img src="images/solution.jpg" width="500">
+<img src="images/solution.JPG" width="500">
 
 ### Additional Visual Whiteboarding Examples
 
