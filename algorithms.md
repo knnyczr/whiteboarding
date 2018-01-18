@@ -676,6 +676,7 @@ function getProducts(input) {
 
 <details>
  <summary><strong>Click to reveal...</strong></summary>
+  
 ```javascript
 function getProducts(arr) {
   const result = [];
