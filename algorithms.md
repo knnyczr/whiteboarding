@@ -560,7 +560,7 @@ ____
 <a name="dna-strings"></a>
 ### DNA Strings
 
-In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G". Write a function called `dnaTransform` that takes in a DNA string returns a string that represents it's compliment. 
+In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G". Write a function called `dnaTransform` that takes in a DNA string and returns a string that represents it's compliment.
 
 **Input:** dnaTransform("ATTGC")
 
