@@ -114,6 +114,7 @@ function reverseString(s) {
 </details>
 
 #### Source: [leetcode](https://leetcode.com/problems/reverse-string/)
+#### Reading: [10 Ways To Reverse A String](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)
 
 ____
 
